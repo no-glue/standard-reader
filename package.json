@@ -1,5 +1,5 @@
 {
-  "name": "standardReader",
+  "name": "standard-reader",
   "version": "0.0.0",
   "description": "Reads from standard input",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"abc\" | node index.js"
+    "test": "echo \"{some: test}\" | node run.js"
   },
   "repository": {
     "type": "git",
